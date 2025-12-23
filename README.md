@@ -9,34 +9,23 @@ The application allows users to browse products, view product details, add items
 🎯 Features
 
 🏠 Home page with product listing
-
 🔍 Product detail page
-
 🛒 Cart management
-
 🔐 Mock login functionality
-
 🌐 Client-side routing using React Router
-
 🌙 Dark Amazon-style UI
-
 📱 Fully responsive layout
-
 🧠 Global state management using Context API + Reducer
 
 🧰 Tech Stack
-
 React (with Vite)
-
 React Router DOM
-
 Context API & useReducer
-
 CSS Grid & Flexbox
-
 JavaScript (ES6)
 
 📂 Folder Structure
+
 src/
 ├── assets/
 │   └── products.js
@@ -59,7 +48,6 @@ src/
 
 ⚙️ Installation & Setup
 1️⃣ Extract the ZIP
-
 Unzip the project folder.
 
 2️⃣ Install dependencies
@@ -81,40 +69,26 @@ Route	Description
 /cart	Cart page
 /checkout	Checkout page
 /login	Login page
+
 🧠 State Management
-
 Global state is managed using Context API + useReducer, handling:
-
 Cart items
-
 User login state
-
 This avoids prop drilling and keeps the app scalable.
 
 🎨 UI Fix Highlight
-
 To prevent product images from overlapping, fixed image dimensions and object-fit: contain were applied in CSS, ensuring each product stays within its grid slot.
 
 🚀 Future Enhancements
-
 Search and filter functionality
-
 Quantity control in cart
-
 Dark/Light mode toggle
-
 Backend integration
-
 Payment gateway simulation
 
 👨‍🎓 Academic Use
-
 This project is suitable for:
-
 React assignments
-
 Frontend mini-projects
-
 UI/UX demonstrations
-
 College practical submissions
